@@ -1,5 +1,145 @@
-@import url('https://fonts.googleapis.com/css?family=Courier+Prime|EB+Garamond&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 *,
 body {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Righteous', cursive;
+  font-size: 12px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.App {
+  position: relative;
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.App-container {
+  width: 30%;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  /* box-shadow: 0px 1px 10px 10px #e0eef51f; */
+  background-color: #fff;
+}
+.App-logo {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+.App-logo img {
+  width: 60px;
+}
+.App-logo h1 {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Righteous', cursive;
+}
+.search {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.search-form {
+  margin-top: 10px;
+}
+.search-form form {
+  width: 100%;
+}
+.search-form form .form-input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  padding-bottom: 10px;
+  box-shadow: 0px 0px 1px #44fef4;
+  border-radius: 10px;
+  position: relative;
+}
+.form-input input[type='text'] {
+  height: 100%;
+  outline: none;
+  border: none;
+  color: #000000;
+  padding-left: 10px;
+}
+.search-list {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  overflow-y: auto;
+}
+.search-list ul {
+  padding: 0;
+}
+.search-list li {
+  box-shadow: 0px 0px 1px #f1d4d4;
+  border-radius: 10px;
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 35px;
+  padding-left: 10px;
+  border-left: 8px solid #19fff4;
+  cursor: pointer;
+  border-right: 1px solid #19fff4;
+  margin-top: 10px;
+  position: relative;
+}
+.search-play-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 100%;
+  padding: 5px;
+  padding-top: 1px;
+}
+.search-play-icon i {
+  font-size: 40px;
+  margin-top: 5px;
+  color: #44fef4;
+}
+.home {
+  position: relative;
+}
+.mp-player {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mp-player audio {
+  width: 100%;
+  outline: none;
+}
+.searchIcon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 20px;
+  font-size: 20px;
+  margin-top: 12px;
+  color: #44fef4;
+}
+.App-footer {
+  text-align: center;
+  margin-top: 100px;
+}
+.follow {
+  margin-top: 10px;
+}
+.follow a {
+  margin: 10px;
+  font-size: 30px;
+  color: #19fff4;
+}
+@media screen and (min-width: 1400px) {
+  .App-container {
+    width: 20%;
+  }
 }
