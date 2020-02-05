@@ -1,4 +1,5 @@
 import React, { FunctionComponent } from 'react';
+
 type IFooter = {
   date: string | number;
 };

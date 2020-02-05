@@ -72,6 +72,9 @@ a {
 }
 .search-list {
   position: relative;
+  width: 100%;
+  height: 30vh;
+  overflow-y: auto;
 }
 .search-list ul {
   padding: 0;
@@ -123,19 +126,19 @@ a {
   margin-top: 12px;
   color: #44fef4;
 }
-.App-footer{
+.App-footer {
   text-align: center;
   margin-top: 100px;
 }
-.follow{
+.follow {
   margin-top: 10px;
 }
-.follow a{
+.follow a {
   margin: 10px;
   font-size: 30px;
   color: #19fff4;
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1600px) {
   .App-container {
     width: 20%;
   }
